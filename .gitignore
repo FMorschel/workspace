@@ -5,3 +5,6 @@
 .vscode/
 
 **/pubspec.lock
+
+*log
+**/.logs/
