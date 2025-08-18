@@ -1,0 +1,10 @@
+name: _
+
+publish_to: none
+environment:
+  sdk: ^3.9.0
+
+workspace:
+  - package
+  - project_one
+  - project_two

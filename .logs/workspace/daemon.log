@@ -1,0 +1,87 @@
+!! ⚠️ PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING ⚠️ !!
+Dart Code extension: 3.117.20250813
+Flutter extension: 3.117.20250731 (not activated)
+
+App: Visual Studio Code
+App Host: desktop
+Version: win 1.103.1
+
+
+Logging Categories:
+    DartToolingDaemon
+
+Mon Aug 18 2025 [10:52:34 GMT-0300 (Horário Padrão de Brasília)] Log file started
+[10:52:34] [DartToolingDaemon] [Info] Spawning C:\Users\felip_0vh5fa6\dart\bin\dart.exe with args ["tooling-daemon","--machine"]
+[10:52:34] [DartToolingDaemon] [Info] ..  with {"toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code"}}
+[10:52:34] [DartToolingDaemon] [Info]     PID: 27216
+[10:52:36] [DartToolingDaemon] [Info] <== {"tooling_daemon_details":{"uri":"ws://127.0.0.1:21419/RvC5sTo8WQM=","trusted_client_secret":"oNzPywsZ_bA="}}
+[10:52:36] [DartToolingDaemon] [Info] Connecting to DTD at ws://127.0.0.1:21419/RvC5sTo8WQM=...
+[10:52:37] [DartToolingDaemon] [Info] Connected to DTD
+[10:52:37] [DartToolingDaemon] [Info] ==> {"id":"1","jsonrpc":"2.0","method":"FileSystem.setIDEWorkspaceRoots","params":{"secret":"oNzPywsZ_bA=","roots":["file:///d%3A/dev/dart/workspace"]}}
+[10:52:37] [DartToolingDaemon] [Info] ==> {"id":"2","jsonrpc":"2.0","method":"registerService","params":{"service":"Editor","method":"getDebugSessions"}}
+[10:52:37] [DartToolingDaemon] [Info] ==> {"id":"3","jsonrpc":"2.0","method":"registerService","params":{"service":"Editor","method":"hotReload"}}
+[10:52:37] [DartToolingDaemon] [Info] ==> {"id":"4","jsonrpc":"2.0","method":"registerService","params":{"service":"Editor","method":"hotRestart"}}
+[10:52:37] [DartToolingDaemon] [Info] ==> {"id":"5","jsonrpc":"2.0","method":"registerService","params":{"service":"Editor","method":"openDevToolsPage","capabilities":{"supportsForceExternal":true}}}
+[10:52:37] [DartToolingDaemon] [Info] ==> {"jsonrpc":"2.0","method":"postEvent","params":{"eventData":{"selections":[{"active":{"character":0,"line":1},"anchor":{"character":0,"line":3}}],"textDocument":{"uri":"file:///D%3A/dev/dart/workspace/package/lib/package.dart","version":1}},"eventKind":"activeLocationChanged","streamId":"Editor"}}
+[10:52:37] [DartToolingDaemon] [Info] ==> {"id":"6","jsonrpc":"2.0","method":"streamListen","params":{"streamId":"Service"}}
+[10:52:37] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","result":{"type":"Success"},"id":"1"}
+[10:52:37] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","result":{"type":"Success"},"id":"2"}
+[10:52:37] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","result":{"type":"Success"},"id":"3"}
+[10:52:37] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","result":{"type":"Success"},"id":"4"}
+[10:52:37] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","result":{"type":"Success"},"id":"5"}
+[10:52:37] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"Editor","method":"getDebugSessions"},"timestamp":1755525157406}}
+[10:52:37] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"Editor","method":"hotReload"},"timestamp":1755525157406}}
+[10:52:37] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"Editor","method":"hotRestart"},"timestamp":1755525157406}}
+[10:52:37] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"Editor","method":"openDevToolsPage","capabilities":{"supportsForceExternal":true}},"timestamp":1755525157406}}
+[10:52:37] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"method":"streamListen"},"timestamp":1755525157406}}
+[10:52:37] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"method":"streamCancel"},"timestamp":1755525157406}}
+[10:52:37] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"method":"postEvent"},"timestamp":1755525157406}}
+[10:52:37] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"method":"registerService"},"timestamp":1755525157406}}
+[10:52:37] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"method":"getRegisteredServices"},"timestamp":1755525157406}}
+[10:52:37] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"ConnectedApp","method":"registerVmService"},"timestamp":1755525157406}}
+[10:52:37] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"ConnectedApp","method":"unregisterVmService"},"timestamp":1755525157406}}
+[10:52:37] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"ConnectedApp","method":"getVmServices"},"timestamp":1755525157406}}
+[10:52:37] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"FileSystem","method":"readFileAsString"},"timestamp":1755525157406}}
+[10:52:37] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"FileSystem","method":"writeFileAsString"},"timestamp":1755525157406}}
+[10:52:37] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"FileSystem","method":"listDirectoryContents"},"timestamp":1755525157406}}
+[10:52:37] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"FileSystem","method":"setIDEWorkspaceRoots"},"timestamp":1755525157406}}
+[10:52:37] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"FileSystem","method":"getIDEWorkspaceRoots"},"timestamp":1755525157406}}
+[10:52:37] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"FileSystem","method":"getProjectRoots"},"timestamp":1755525157406}}
+[10:52:37] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"UnifiedAnalytics","method":"getConsentMessage"},"timestamp":1755525157406}}
+[10:52:37] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"UnifiedAnalytics","method":"shouldShowMessage"},"timestamp":1755525157406}}
+[10:52:37] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"UnifiedAnalytics","method":"clientShowedMessage"},"timestamp":1755525157406}}
+[10:52:37] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"UnifiedAnalytics","method":"telemetryEnabled"},"timestamp":1755525157406}}
+[10:52:37] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"UnifiedAnalytics","method":"setTelemetry"},"timestamp":1755525157406}}
+[10:52:37] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"UnifiedAnalytics","method":"send"},"timestamp":1755525157406}}
+[10:52:37] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","result":{"type":"Success"},"id":"6"}
+[10:52:40] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"Lsp","method":"dart/textDocument/augmentation"},"timestamp":1755525160193}}
+[10:52:41] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"Lsp","method":"dart/textDocument/augmented"},"timestamp":1755525161150}}
+[10:52:41] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"Lsp","method":"textDocument/codeAction"},"timestamp":1755525161151}}
+[10:52:41] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"Lsp","method":"textDocument/codeLens"},"timestamp":1755525161151}}
+[10:52:41] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"Lsp","method":"dart/textDocumentContent"},"timestamp":1755525161177}}
+[10:52:41] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"Lsp","method":"textDocument/documentColor"},"timestamp":1755525161177}}
+[10:52:41] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"Lsp","method":"textDocument/colorPresentation"},"timestamp":1755525161178}}
+[10:52:41] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"Lsp","method":"textDocument/documentHighlight"},"timestamp":1755525161178}}
+[10:52:41] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"Lsp","method":"textDocument/documentSymbol"},"timestamp":1755525161178}}
+[10:52:41] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"Lsp","method":"dart/textDocument/editableArguments"},"timestamp":1755525161178}}
+[10:52:41] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"Lsp","method":"dart/textDocument/editArgument"},"timestamp":1755525161178}}
+[10:52:41] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"Lsp","method":"workspace/executeCommand"},"timestamp":1755525161178}}
+[10:52:41] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"Lsp","method":"textDocument/onTypeFormatting"},"timestamp":1755525161178}}
+[10:52:41] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"Lsp","method":"textDocument/rangeFormatting"},"timestamp":1755525161179}}
+[10:52:41] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"Lsp","method":"textDocument/formatting"},"timestamp":1755525161179}}
+[10:52:41] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"Lsp","method":"textDocument/hover"},"timestamp":1755525161179}}
+[10:52:41] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"Lsp","method":"dart/textDocument/imports"},"timestamp":1755525161179}}
+[10:52:41] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"Lsp","method":"textDocument/implementation"},"timestamp":1755525161179}}
+[10:52:41] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"Lsp","method":"callHierarchy/incomingCalls"},"timestamp":1755525161179}}
+[10:52:41] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"Lsp","method":"textDocument/inlineValue"},"timestamp":1755525161180}}
+[10:52:41] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"Lsp","method":"callHierarchy/outgoingCalls"},"timestamp":1755525161180}}
+[10:52:41] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"Lsp","method":"textDocument/prepareCallHierarchy"},"timestamp":1755525161180}}
+[10:52:41] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"Lsp","method":"textDocument/prepareTypeHierarchy"},"timestamp":1755525161180}}
+[10:52:41] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"Lsp","method":"textDocument/signatureHelp"},"timestamp":1755525161180}}
+[10:52:41] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"Lsp","method":"dart/textDocument/summary"},"timestamp":1755525161180}}
+[10:52:41] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"Lsp","method":"dart/textDocument/super"},"timestamp":1755525161180}}
+[10:52:41] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"Lsp","method":"textDocument/typeDefinition"},"timestamp":1755525161181}}
+[10:52:41] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"Lsp","method":"typeHierarchy/subtypes"},"timestamp":1755525161181}}
+[10:52:41] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"Lsp","method":"typeHierarchy/supertypes"},"timestamp":1755525161181}}
+[10:52:41] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"Lsp","method":"workspace/willRenameFiles"},"timestamp":1755525161181}}
+[10:52:41] [DartToolingDaemon] [Info] <== {"jsonrpc":"2.0","method":"streamNotify","params":{"streamId":"Service","eventKind":"ServiceRegistered","eventData":{"service":"Lsp","method":"workspace/symbol"},"timestamp":1755525161181}}
