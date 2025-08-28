@@ -8,3 +8,6 @@ workspace:
   - package
   - project_one
   - project_two
+
+dev_dependencies:
+  flutter_lints: 6.0.0

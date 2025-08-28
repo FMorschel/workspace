@@ -1,10 +1,27 @@
 {
   "folders": [
     {
+      "name": "APP",
       "path": "project_one"
     },
     {
       "path": "package"
     }
   ],
+  "settings": {
+    "dart.sdkPath": "C:\\Users\\felip_0vh5fa6\\.puro\\envs\\beta\\flutter\\bin\\cache\\dart-sdk",
+    "dart.flutterSdkPath": "C:\\Users\\felip_0vh5fa6\\.puro\\envs\\beta\\flutter"
+  },
+  "launch": {
+    "version": "0.2.0",
+    "compounds": [],
+    "configurations": [
+      {
+        "name": "APP",
+        "request": "launch",
+        "type": "dart",
+        "program": "${workspaceFolder:APP}/lib/main.dart",
+      },
+    ]
+  }
 }
